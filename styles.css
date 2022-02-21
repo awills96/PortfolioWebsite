@@ -1,5 +1,6 @@
 * {
     font-family: "Lucida Sans Typewriter", sans-serif;
+    border: 1px clear solid;
 }
 
 header {
@@ -30,8 +31,22 @@ header {
     position: relative;
     width: 100%;
     clear: left;
+    border: 1px black solid;
 }
 
 #first-row {
     clear: left;
+    border: 1px green solid;
+}
+
+#about-text {
+    width: 30%;
+    margin-right: 100px;
+    border: 1px red solid;
+    float: left;
+}
+
+#profile{
+    display: inline-block;
+    border: 1px mediumaquamarine solid;
 }
