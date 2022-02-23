@@ -74,7 +74,6 @@ header {
     width: 32%;
     border: 1px black solid;
     float: right;
-    height: 275px;
     display: flex;
     justify-content: space-between;
     background-color: aliceblue;
