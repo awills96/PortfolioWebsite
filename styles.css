@@ -3,6 +3,10 @@
     border: 1px clear solid;
 }
 
+body{
+    background-color: #A0AECD;
+}
+
 header {
 }
 
@@ -28,9 +32,18 @@ header {
 }
 
 .single-exp {
-    border: 1px goldenrod solid;
+    dborder: 1px goldenrod solid;
     display: inline-block;
-    margin-left: 15px;
+    height: 150px;
+}
+
+.programming-icon{
+    display: block;
+    margin: auto;
+}
+
+.dots-icon {
+    margin-top: 10px;
 }
 
 #first-section {
@@ -42,24 +55,27 @@ header {
 
 #first-row {
     clear: left;
-    border: 1px green solid;
+    dborder: 1px green solid;
 }
 
 #about-text {
     width: 32%;
     margin-right: 100px;
-    border: 1px red solid;
+    dborder: 1px red solid;
     float: left;
 }
 
 #profile{
     display: inline-block;
-    border: 1px red solid;
+    dborder: 1px red solid;
 }
 
 #exp-box{
     width: 32%;
-    border: 1px red solid;
+    border: 1px black solid;
     float: right;
     height: 275px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
 }
