@@ -1,13 +1,17 @@
 * {
-    font-family: "Lucida Sans Typewriter", sans-serif;
+    font-family: 'Rubik', sans-serif;
     border: 1px clear solid;
 }
 
 body{
-    background-color: #A0AECD;
+    ackground-color: #A0AECD;
 }
 
 header {
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 #contact {
@@ -35,6 +39,8 @@ header {
     dborder: 1px goldenrod solid;
     display: inline-block;
     height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .programming-icon{
@@ -44,6 +50,10 @@ header {
 
 .dots-icon {
     margin-top: 10px;
+}
+
+.table-row {
+    display: block;
 }
 
 #first-section {
@@ -59,7 +69,7 @@ header {
 }
 
 #about-text {
-    width: 32%;
+    width: 30%;
     margin-right: 100px;
     dborder: 1px red solid;
     float: left;
@@ -71,10 +81,25 @@ header {
 }
 
 #exp-box{
-    width: 32%;
-    border: 1px black solid;
+    wdidth: 32%;
+    border: 3px black solid;
     float: right;
+    margin-right: 145px;
+}
+
+#project-big-box {
+    clear: both;
+    dborder: 1px green solid;
+
+    height: 100px;
+}
+
+#interactables{
+    font-size: 22px;
     display: flex;
-    justify-content: space-between;
-    background-color: aliceblue;
+    justify-content: center;
+}
+
+.arrow {
+    font-size: 36px;
 }
