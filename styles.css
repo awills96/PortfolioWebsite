@@ -59,6 +59,7 @@ h1 {
 
 #exp-section {
     dborder: 1px maroon solid;
+    margin-right: 20px;
 }
 
 #first-row {
@@ -85,22 +86,59 @@ h1 {
 
 #exp-box{
     border: 3px black solid;
+    margin-bottom: 55px;
 }
 
 #project-big-box {
     clear: both;
     dborder: 1px green solid;
     margin-left: 2%;
-    height: 100px;
     margin-right: 2%;
 }
 
+.project-box {
+    border: 1px gray solid;
+    max-width: 475px;
+    background-color: floralwhite;
+    padding-bottom: 10px;
+    margin: 15px 35px 15px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.project-box p{
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.project-image{
+    border: 1px black solid;
+
+    margin: 10px;
+}
+
 #interactables{
-    font-size: 22px;
     display: flex;
     justify-content: center;
 }
 
 .arrow {
     font-size: 36px;
+    align-self: center;
+}
+
+#project-left {
+
+}
+
+#project-center {
+    
+}
+
+#project-right {
+
 }
