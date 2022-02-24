@@ -12,71 +12,76 @@
     <body>
         <header>
             <p id="contact">Contact me</p> 
-            <p id="name">Alexander Williams</h1>
+            <p id="name">Alexander Williams</p>
         </header>
-    
-        <div class="section-header" id="first-section">
-            <h1 class="align-left">About Me</h2>
-            <h1 class="align-right">Programming Experience</h2>
-        </div>
+
+        <hr class="solid">
 
         <section id="first-row">
-            <article id="about-text">
-                <p>Hello! My name is Alexander Williams. I am a Computer Engineer with a focus on software development. 
-                    Through my work expierence I've come to love making code to life. I've also become a Linux enthusiast,
-                and now I'm trying my hand with full stack web development.</p> 
+            <div id="about-text"> 
+                <h1 class="header-text">About me</h1>
+                <article>
+                    <p>Hello! My name is Alexander Williams. I am a Computer Engineer with a focus on software development. 
+                        Through my work expierence I've come to love making code to life. I've also become a Linux enthusiast,
+                    and now I'm trying my hand with full stack web development.</p> 
+                
+                    <p>Right now I'm just filling this out to see how formatting is. Right now I'm just filling this out to see how formatting is. Right now I'm just filling this out to see how formatting is.</p>
+                </article>
+            </div>
             
-                <p>Right now I'm just filling this out to see how formatting is. Right now I'm just filling this out to see how formatting is. Right now I'm just filling this out to see how formatting is.</p>
-            </article>
 
             <img id="profile" src="resources/images/download.jpg" width="300">
 
-            <table id="exp-box">
+            <div id="exp-section">
+                <h1 class="header-text" id="Programming">Programming Experience</h1>
+                <table id="exp-box">
+                    <tr class="table-row">
+                        <td class="single-exp">
+                            <img class="programming-icon" src="resources/images/c++img.png" width="100">
+                            <img class="dots-icon" src="resources/images/4dots.png" height="25px">
+                        </td>
+    
+                        <td class="single-exp">
+                            <img class="programming-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" width="100">
+                            <img class="dots-icon" src="resources/images/3dots.png" height="25px">
+                        </td>
+    
+                        <td class="single-exp">
+                            <img class="programming-icon" src="resources/images/Linux-PNG-Image-File.png" width="100">
+                            <img class="dots-icon" src="resources/images/3dots.png" height="25px">
+                        </td>
+                    </tr>
+    
+                    <tr class="table-row">
+                        <td class="single-exp">
+                            <img class="programming-icon" src="https://image.flaticon.com/icons/png/512/919/919827.png" width="100">
+                            <img class="dots-icon" src="resources/images/2dots.png" height="25px">
+                        </td>
+    
+                        <td class="single-exp">
+                            <img class="programming-icon" src="resources/images/cicon.png" width="100">
+                            <img class="dots-icon" src="resources/images/3dots.png" height="25px">
+                        </td>
+    
+                        <td class="single-exp">
+                            <img class="programming-icon" src="resources/images/javascript_logo.png" width="100">
+                            <img class="dots-icon" src="resources/images/3dots.png" height="25px">
+                        </td>
+                    </tr>
+                    
+                </table>
+            </div>
 
-                <tr class="table-row">
-                    <td class="single-exp">
-                        <img class="programming-icon" src="resources/images/c++img.png" width="100">
-                        <img class="dots-icon" src="resources/images/4dots.png" height="25px">
-                    </td>
-
-                    <td class="single-exp">
-                        <img class="programming-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" width="100">
-                        <img class="dots-icon" src="resources/images/3dots.png" height="25px">
-                    </td>
-
-                    <td class="single-exp">
-                        <img class="programming-icon" src="resources/images/Linux-PNG-Image-File.png" width="100">
-                        <img class="dots-icon" src="resources/images/3dots.png" height="25px">
-                    </td>
-                </tr>
-
-                <tr class="table-row">
-                    <td class="single-exp">
-                        <img class="programming-icon" src="https://image.flaticon.com/icons/png/512/919/919827.png" width="100">
-                        <img class="dots-icon" src="resources/images/2dots.png" height="25px">
-                    </td>
-
-                    <td class="single-exp">
-                        <img class="programming-icon" src="resources/images/cicon.png" width="100">
-                        <img class="dots-icon" src="resources/images/3dots.png" height="25px">
-                    </td>
-
-                    <td class="single-exp">
-                        <img class="programming-icon" src="resources/images/javascript_logo.png" width="100">
-                        <img class="dots-icon" src="resources/images/3dots.png" height="25px">
-                    </td>
-                </tr>
-                
-            </table>
+            
         </section>
 
         <section id="project-big-box">
             <h1>Current Projects</h1>
             <section id="interactables">
                 <span class="arrow" id="left">⬅️</span>
-                <span class="arrow">⬆️</span>
-                <span class="arrow">⬆️</span>
-                <span class="arrow">⬆️</span>
+                <div class="project-box" id="project-left">⬆️</div>
+                <div class="project-box" id="project-center">⬆️</div>
+                <div class="project-box" id="project-right">⬆️</div>
                 <span class="arrow" id="right">➡️</span>
         
 

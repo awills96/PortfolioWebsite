@@ -10,6 +10,12 @@ body{
 header {
 }
 
+hr.solid {
+    border-top: 3px solid #000;
+    clear: both;
+    margin-top: 5px;
+  }
+
 h1 {
     font-family: 'Montserrat', sans-serif;
 }
@@ -25,14 +31,9 @@ h1 {
     float: right;
 }
 
-.align-left {
-    display: inline;
-    float: left;
-}
-
-.align-right {
-    display: inline;
-    float: right;
+.header-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
 }
 
 .single-exp {
@@ -56,42 +57,42 @@ h1 {
     display: block;
 }
 
-#first-section {
-    position: relative;
-    width: 100%;
-    clear: left;
-    border: 1px black solid;
+#exp-section {
+    dborder: 1px maroon solid;
 }
 
 #first-row {
     clear: left;
+    display: flex;
     dborder: 1px green solid;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 #about-text {
-    width: 30%;
-    margin-right: 100px;
-    dborder: 1px red solid;
-    float: left;
+    width: 24%;
+}
+
+#Programming{
+    text-align: center;
 }
 
 #profile{
-    display: inline-block;
-    dborder: 1px red solid;
+    align-self: center;
 }
 
 #exp-box{
-    wdidth: 32%;
     border: 3px black solid;
-    float: right;
-    margin-right: 145px;
 }
 
 #project-big-box {
     clear: both;
     dborder: 1px green solid;
-
+    margin-left: 2%;
     height: 100px;
+    margin-right: 2%;
 }
 
 #interactables{
