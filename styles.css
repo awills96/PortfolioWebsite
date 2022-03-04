@@ -117,8 +117,7 @@ h1 {
 
 .project-image{
     border: 1px black solid;
-
-    margin: 10px;
+    max-height: 250px;
 }
 
 #interactables{
