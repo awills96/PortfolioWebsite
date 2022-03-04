@@ -1,15 +1,15 @@
 let projectList = [
     {
         imagepath: "resources/images/crafts.PNG",
-        title: "Dasmoto's Arts and Crafts 1",
+        title: "Dasmoto's Arts and Crafts",
         desc: "This is a test website that I created based off a codeacademy prompt. The goal of this project was to learn fundamental HTML and CSS functions to a minimally guided project.",
         link: "https://github.com/awills96/crafts-website-project"
     },
     {
-        imagepath: "resources/images/crafts.PNG",
-        title: "Dasmoto's Arts and Crafts 2",
-        desc: "This is a test website that I created based off a codeacademy prompt. The goal of this project was to learn fundamental HTML and CSS functions to a minimally guided project.",
-        link: "https://github.com/awills96/crafts-website-project"
+        imagepath: "resources/images/message.PNG",
+        title: "Message Generator",
+        desc: "This is a test script I made for learning javascript",
+        link: "https://github.com/awills96/message-generator"
     },
     {
         imagepath: "resources/images/3dots.PNG",
