@@ -129,6 +129,7 @@ h1 {
 .arrow {
     font-size: 36px;
     align-self: center;
+    cursor: pointer;
 }
 
 #project-left {
