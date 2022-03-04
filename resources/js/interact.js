@@ -18,10 +18,10 @@ let projectList = [
         link : "https://github.com/awills96/WebDesignSystem"
     },
     {
-        imagepath: "resources/images/crafts.PNG",
-        title: "Dasmoto's Arts and Crafts",
-        desc: "This is a test website that I created based off a codeacademy prompt. The goal of this project was to learn fundamental HTML and CSS functions to a minimally guided project.",
-        link: "https://github.com/awills96/crafts-website-project"
+        imagepath: "resources/images/githubio.PNG",
+        title: "Personal githubio page",
+        desc: "This is a test website that I created with github pages as a repo for different projects.",
+        link: "https://github.com/awills96/awills96.github.io"
     },
     {
         imagepath: "resources/images/excursion.PNG",
