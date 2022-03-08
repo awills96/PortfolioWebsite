@@ -9,6 +9,12 @@ hr.solid {
     margin-top: 5px;
   }
 
+  #name a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+  }
+
 h1 {
     font-family: 'Montserrat', sans-serif;
 }
